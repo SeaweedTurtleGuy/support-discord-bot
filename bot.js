@@ -33,7 +33,7 @@ bot.on("message", function(message) {
         message.channel.sendEmbed(embed);
             break;
         case "invite":
-            message.reply("https://discordapp.com/api/oauth2/authorize?client_id=426797009102700554&permissions=8&scope=bot");
+            message.reply("https://discordapp.com/oauth2/authorize?client_id=426797009102700554&permissions=36875328&scope=bot");
             break;
         case "website":
             message.reply("https://supportbotdiscord.weebly.com/");
