@@ -1,0 +1,11 @@
+{
+  "name": "",
+  "dependencies": {
+    "discord-bot-list": "^1.0.1",
+    "discord.js": "^11.3.2",
+    "discordbots-api": "0.0.2",
+    "request-promise-native": "^1.0.5",
+    "snekfetch": "^3.6.4"
+  },
+  "version": ""
+}
