@@ -32,6 +32,13 @@ bot.on("message", function(message) {
             .setDescription("~help   ~support   ~invite   ~website   ~developer")
         message.channel.sendEmbed(embed);
             break;
+        case "setup":
+        var embed = new Discord.RichEmbed()
+            .setColor(0x0db0ff)
+            .setTitle("Setup")
+            .setDescription("​Invite Support BOT. ​Create a role called **Support-Team**. ​Give the role you created called **Support-Team** to whoever is on your support team. ​After thse steps your done!")
+        message.channel.sendEmbed(embed);
+            break;
         case "invite":
             message.reply("https://discordapp.com/oauth2/authorize?client_id=426797009102700554&permissions=36875328&scope=bot");
             break;
