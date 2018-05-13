@@ -29,7 +29,7 @@ bot.on("message", function(message) {
         var embed = new Discord.RichEmbed()
             .setColor(0x0db0ff)
             .setTitle("Commands")
-            .setDescription("~help   ~support   ~invite   ~website   ~developer")
+            .setDescription("~help   ~support   ~invite   ~website   ~setup   ~developer")
         message.channel.sendEmbed(embed);
             break;
         case "setup":
