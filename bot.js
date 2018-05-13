@@ -36,7 +36,7 @@ bot.on("message", function(message) {
         var embed = new Discord.RichEmbed()
             .setColor(0x0db0ff)
             .setTitle("Setup")
-            .setDescription("​Invite Support BOT. ​Create a role called **Support-Team**. ​Give the role you created called **Support-Team** to whoever is on your support team. ​After thse steps your done!")
+            .setDescription("1: Invite Support BOT. 2: Create a role called **Support-Team**. 3: Give the role you created called **Support-Team** to whoever is on your support team. 4: After thse steps your done!")
         message.channel.sendEmbed(embed);
             break;
         case "invite":
