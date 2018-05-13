@@ -8,7 +8,9 @@ var bot = new Discord.Client();
 bot.on("ready", function() {
     console.log("Support BOT Activated | Version 1.2.3");
 
-    bot.user.setGame('~help');
+    bot.user.setStatus('Online')
+    
+    bot.user.setGame('~help')
 });
 
 bot.on("message", function(message) {
